@@ -12,8 +12,8 @@ class destination:
     offer=bool
 
     def rekognition(self,image):
-        access_key_id="AKIAYPD47APZP2DIGL4F"
-        secret_access_key="BljCMNkYPEEnVEcNzkPEWVk+UDVm3qt+CxzgvYwm"
+        access_key_id="//your access key"
+        secret_access_key="//your secret access key"
 
         photo=image
 
