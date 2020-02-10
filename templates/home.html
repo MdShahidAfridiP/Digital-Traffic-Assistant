@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>i am {{name}}!!!</h1>
+<form action="add" method='post'>
+    {% csrf_token %}
+    enter the 1st value = <input type="text" name="num1"><br>
+    enter the 2st value = <input type="text" name="num2"><br>
+    enter the value to check is it even = <input type="text" name="val"><br>
+    <input type="submit">
+</form>
+
+{% endblock %}
