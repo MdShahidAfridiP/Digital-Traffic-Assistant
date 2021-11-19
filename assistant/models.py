@@ -52,7 +52,7 @@ class destination:
         msg=": \n you have been charged Rs:500/-  for parking in no parking zone, please remove your vehicle"
         payload = f"sender_id=FSTSMS&message={msg}&language=english&route=p&numbers={phone}"
         headers = {
-            'authorization': "g7I1OrsaLSZRivnDTHQb02XzCA5dolPNmkK3BMu8eJty9YW6jfK9LdhtH1ZuxVR0z4I6mM2iJ8XAjcWY",
+            'authorization': "//auth code",
             'Content-Type': "application/x-www-form-urlencoded",
             'Cache-Control': "no-cache",
         }
